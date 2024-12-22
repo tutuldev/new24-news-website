@@ -1,27 +1,56 @@
 // owl carosul 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:20,
+$('.carousel-container1 .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
     nav: false, 
     dots: true,
-    responsive:{
-        0:{
-            items:2,
-
-            
+    responsive: {
+        0: {
+            items: 2
         },
-        600:{
-            items:3,
-            
-
+        600: {
+            items: 3
         },
-        1000:{
-            items:4,
-
-
+        1000: {
+            items: 4
         }
     }
-})
+});
+$('.carousel-container2 .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false, 
+    dots: true,
+    responsive: {
+        0: {
+            items: 2
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+});
+$('.carousel-container3 .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false, 
+    dots: true,
+    responsive: {
+        0: {
+            items: 2
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
+// glitz 
 
 // owl carosul end
 
